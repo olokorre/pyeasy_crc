@@ -1,6 +1,6 @@
 from typing import Union
-from source.algorithms.Algorithms import algorithms
-from source.types.AlgorithmKeys import AlgorithmKeys
+from .algorithms.Algorithms import algorithms
+from .types.AlgorithmKeys import AlgorithmKeys
 
 def crc8(algorithm: AlgorithmKeys, data: Union[str, bytes]):
     if isinstance(data, str):

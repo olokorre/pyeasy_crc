@@ -1,5 +1,5 @@
 from array import array
-from source.algorithms.Algorithm import Algorithm
+from .Algorithm import Algorithm
 
 
 ITU: Algorithm = {

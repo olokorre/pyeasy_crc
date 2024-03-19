@@ -1,5 +1,5 @@
 from array import array
-from source.algorithms.Algorithms import Algorithm
+from .Algorithms import Algorithm
 
 
 I_CODE: Algorithm = {
